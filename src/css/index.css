@@ -160,3 +160,6 @@ p {
 .is-hidden{
     display: none;
 }
+section{
+    padding-bottom: 20px;
+}
