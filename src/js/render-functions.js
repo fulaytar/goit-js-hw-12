@@ -98,7 +98,9 @@ function searchImages(event) {
     progressBarColor: '#B51B1B',
     position: 'topRight',
     })
-      
+    //якщо пусте значення
+    btnMoreImages.classList.add('is-hidden')
+    
     return;
     }
     
