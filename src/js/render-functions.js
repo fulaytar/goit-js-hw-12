@@ -77,7 +77,9 @@ function addImagesMarcup(largeImageURL, webformatURL, tags, likes, views, commen
 function searchImages(event) {
     event.preventDefault();
     //тут очищаю перед заповненням
-    gallery.innerHTML = '';
+  gallery.innerHTML = '';
+  //обнулення на новий запит
+  renderCount = 0;
     
 
 
